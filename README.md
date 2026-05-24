@@ -12,7 +12,7 @@ This repository contains survival-analysis experiments for an AML/MDS leukemia r
 
 ## Main Files
 
-- `leukemia_survival_colab.py` / `.ipynb`: original benchmark-style workflow.
+- `leukemia_survival_colab.py` / `.ipynb`: original workflow.
 - `leukemia_survival_v7.py` / `.ipynb`: domain-informed AML/MDS feature ablations.
 - `leukemia_survival_v8a.py` / `.ipynb`: full-target versus tau=7 target comparison.
 - `leukemia_survival_v8cd.py` / `.ipynb`: XGBoost and LightGBM diagnostic experiments.
@@ -23,7 +23,7 @@ This repository contains survival-analysis experiments for an AML/MDS leukemia r
 
 ## Reproducibility Notes
 
-Raw challenge data and generated outputs are not included in this repository. Place the challenge files in a local `QRT_blood` directory or update the paths in the scripts:
+Raw challenge data and generated outputs are not included in this repository. Place files in a local `QRT_blood` directory or update paths in scripts:
 
 - `X_train_9po2I7U.zip`
 - `X_test_xzVefmA.zip`
