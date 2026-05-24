@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data and challenge artifacts
+QRT_blood/
+X_train_*.zip
+X_test_*.zip
+target_train.csv
+random_submission*.csv
+submission*.csv
+
+# Experiment outputs
+qrt_outputs/
+qrt_outputs_*/
+qrt_outputs_exp*/
+
+# Logs and local scratch files
+*.log
+*_stdout.txt
+*_stderr.txt
+leukemia_run_*.txt
+leukemia_finish_*.txt
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
